@@ -5,4 +5,4 @@ compiler:
   - gcc
 
 script:
-  ./Gyp/gyp && g++ main.cpp -pthread -lcurl -lssl -lz -lsqlite3 -o test.out && ./test.out
+  ./Gyp/gyp --depth=. test.gyp --generator-output=./build && g++ main.cpp -pthread -lcurl -lssl -lz -lsqlite3 -o test.out && ./test.out
