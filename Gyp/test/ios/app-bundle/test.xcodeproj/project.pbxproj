@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		80CF217C4825D6A4A5527B3C /* All */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 88483184C19B6C3450059896 /* Build configuration list for PBXAggregateTarget "All" */;
+			buildPhases = (
+			);
+			dependencies = (
+				B1EF0D79121B64BE00C8B4ED /* PBXTargetDependency */,
+				A5A1226191996EF2B630E351 /* PBXTargetDependency */,
+			);
+			name = All;
+			productName = All;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0B978C4B8AB9B452C80459B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F27859E0ADED6C094C6038B0 /* InfoPlist.strings */; };
+		43597B9B47BAD3E3F20C02E0 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C22C1C6CC35281C4F3FF9112 /* Main_iPhone.storyboard */; };
+		4BBF39A44200799A398DD16E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38FE2689A092E6092E066AD2 /* MainMenu.xib */; };
+		52C83728F342C57F47C7C88D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17724A5A58A25EA04FADA828 /* Foundation.framework */; };
+		52DED1E455830B8D812C980B /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C22C1C6CC35281C4F3FF9112 /* Main_iPhone.storyboard */; };
+		58F1AAA992C54ECDAD8C05DD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38FE2689A092E6092E066AD2 /* MainMenu.xib */; };
+		6A0ECE888ABBB1F488860BCF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F27859E0ADED6C094C6038B0 /* InfoPlist.strings */; };
+		6D83D8A69E1FFB3CF9D61541 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DB92A7A1C2FF6027DA44362 /* UIKit.framework */; };
+		77E5514E98AC8A5F3CAA42B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DB92A7A1C2FF6027DA44362 /* UIKit.framework */; };
+		8FDAD7B2F6770313D0E3FF64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17724A5A58A25EA04FADA828 /* Foundation.framework */; };
+		E453DE8952B5C9FA4CE954BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 297A2FB8CC4C9B16302A6629 /* main.m */; };
+		EACD16F58C08314F5612EB0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 297A2FB8CC4C9B16302A6629 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6184BE90971B417D42DAE7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A6743A18569523314A4F834 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AC299F22289412CA46CD0E1;
+			remoteInfo = test_app;
+		};
+		CE7DCF4CD9E5895455165F67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A6743A18569523314A4F834 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DE456B7B7D2D19820D52F06;
+			remoteInfo = test_app_xml;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17724A5A58A25EA04FADA828 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		297A2FB8CC4C9B16302A6629 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		31D8005FF8ADE7BFCDCBBB6A /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3D66D91698325CCFE78A6716 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = English; path = English.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		4D1DF4670BA699DE85EBBD0D /* Test App Gyp XML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test App Gyp XML.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DB92A7A1C2FF6027DA44362 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		880EEB00AD59364BD55E139D /* test.gyp */ = {isa = PBXFileReference; explicitFileType = sourcecode; path = test.gyp; sourceTree = "<group>"; };
+		8C05F0AAA96F875C98D868A6 /* Test App Gyp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test App Gyp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6060AA28FEB3AA2DE3224FA /* English */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B336A0EC71B7E8CCE31FB4AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52C83728F342C57F47C7C88D /* Foundation.framework in Frameworks */,
+				77E5514E98AC8A5F3CAA42B4 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA425DCEB128B4B77A9CCA37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FDAD7B2F6770313D0E3FF64 /* Foundation.framework in Frameworks */,
+				6D83D8A69E1FFB3CF9D61541 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0727F06C2715FD7ECB4938EE /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				F27859E0ADED6C094C6038B0 /* InfoPlist.strings */,
+				38FE2689A092E6092E066AD2 /* MainMenu.xib */,
+				C22C1C6CC35281C4F3FF9112 /* Main_iPhone.storyboard */,
+				297A2FB8CC4C9B16302A6629 /* main.m */,
+			);
+			name = Source;
+			path = TestApp;
+			sourceTree = "<group>";
+		};
+		5601FB00DC712B576FE1D490 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C05F0AAA96F875C98D868A6 /* Test App Gyp.app */,
+				4D1DF4670BA699DE85EBBD0D /* Test App Gyp XML.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B31237BC41818ED512CADAE /* Build */ = {
+			isa = PBXGroup;
+			children = (
+				880EEB00AD59364BD55E139D /* test.gyp */,
+			);
+			name = Build;
+			sourceTree = "<group>";
+		};
+		97C62D1AE13BAC72C8F0DC7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17724A5A58A25EA04FADA828 /* Foundation.framework */,
+				4DB92A7A1C2FF6027DA44362 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4157D3AC1ABE45AF51559B9 = {
+			isa = PBXGroup;
+			children = (
+				0727F06C2715FD7ECB4938EE /* Source */,
+				97C62D1AE13BAC72C8F0DC7D /* Frameworks */,
+				5601FB00DC712B576FE1D490 /* Products */,
+				5B31237BC41818ED512CADAE /* Build */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3AC299F22289412CA46CD0E1 /* test_app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D76D487B992F8174BE4F5184 /* Build configuration list for PBXNativeTarget "test_app" */;
+			buildPhases = (
+				B9AE3C72F532A6BE191DAAB2 /* Resources */,
+				26FF69E8B0ADCBC0015E6902 /* Sources */,
+				B336A0EC71B7E8CCE31FB4AA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = test_app;
+			productName = "Test App Gyp";
+			productReference = 8C05F0AAA96F875C98D868A6 /* Test App Gyp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DE456B7B7D2D19820D52F06 /* test_app_xml */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9064FB1A2D0C8058A0A9F400 /* Build configuration list for PBXNativeTarget "test_app_xml" */;
+			buildPhases = (
+				8AC58CD2A4DD5FEEDA70C884 /* Resources */,
+				15DB839C10B9446ECF7FDADF /* Sources */,
+				DA425DCEB128B4B77A9CCA37 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = test_app_xml;
+			productName = "Test App Gyp XML";
+			productReference = 4D1DF4670BA699DE85EBBD0D /* Test App Gyp XML.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A6743A18569523314A4F834 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = E3F7E478A7E11498DBFAAB31 /* Build configuration list for PBXProject "test" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = E4157D3AC1ABE45AF51559B9;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80CF217C4825D6A4A5527B3C /* All */,
+				3AC299F22289412CA46CD0E1 /* test_app */,
+				3DE456B7B7D2D19820D52F06 /* test_app_xml */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8AC58CD2A4DD5FEEDA70C884 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B978C4B8AB9B452C80459B7 /* InfoPlist.strings in Resources */,
+				58F1AAA992C54ECDAD8C05DD /* MainMenu.xib in Resources */,
+				52DED1E455830B8D812C980B /* Main_iPhone.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9AE3C72F532A6BE191DAAB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A0ECE888ABBB1F488860BCF /* InfoPlist.strings in Resources */,
+				4BBF39A44200799A398DD16E /* MainMenu.xib in Resources */,
+				43597B9B47BAD3E3F20C02E0 /* Main_iPhone.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15DB839C10B9446ECF7FDADF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E453DE8952B5C9FA4CE954BD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26FF69E8B0ADCBC0015E6902 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EACD16F58C08314F5612EB0E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5A1226191996EF2B630E351 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DE456B7B7D2D19820D52F06 /* test_app_xml */;
+			targetProxy = CE7DCF4CD9E5895455165F67 /* PBXContainerItemProxy */;
+		};
+		B1EF0D79121B64BE00C8B4ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AC299F22289412CA46CD0E1 /* test_app */;
+			targetProxy = A6184BE90971B417D42DAE7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		38FE2689A092E6092E066AD2 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31D8005FF8ADE7BFCDCBBB6A /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		C22C1C6CC35281C4F3FF9112 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D66D91698325CCFE78A6716 /* English */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		F27859E0ADED6C094C6038B0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6060AA28FEB3AA2DE3224FA /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0652ACFEEB921E598DDB0A56 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = build/Default;
+				INFOPLIST_FILE = "TestApp/TestApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = "$(SDKROOT)/System/Library/Frameworks";
+				OTHER_CFLAGS = "-fobjc-abi-version=2";
+				PRODUCT_NAME = "Test App Gyp";
+				SDKROOT = iphonesimulator;
+				WRAPPER_PREFIX = "";
+			};
+			name = Default;
+		};
+		1FF1AF4D8A3D3A3858DD879E /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = All;
+			};
+			name = Default;
+		};
+		493ED59CECF5E385A5B4791A /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = build/Default;
+				INFOPLIST_FILE = "TestApp/TestApp-Info.plist";
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = "$(SDKROOT)/System/Library/Frameworks";
+				OTHER_CFLAGS = "-fobjc-abi-version=2";
+				PRODUCT_NAME = "Test App Gyp XML";
+				SDKROOT = iphonesimulator;
+				WRAPPER_PREFIX = "";
+			};
+			name = Default;
+		};
+		AAE36E77B64EF3A5BA628C41 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INTERMEDIATE_DIR = "$(PROJECT_DERIVED_FILE_DIR)/$(CONFIGURATION)";
+				SHARED_INTERMEDIATE_DIR = "$(SYMROOT)/DerivedSources/$(CONFIGURATION)";
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88483184C19B6C3450059896 /* Build configuration list for PBXAggregateTarget "All" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FF1AF4D8A3D3A3858DD879E /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		9064FB1A2D0C8058A0A9F400 /* Build configuration list for PBXNativeTarget "test_app_xml" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				493ED59CECF5E385A5B4791A /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		D76D487B992F8174BE4F5184 /* Build configuration list for PBXNativeTarget "test_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0652ACFEEB921E598DDB0A56 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		E3F7E478A7E11498DBFAAB31 /* Build configuration list for PBXProject "test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAE36E77B64EF3A5BA628C41 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A6743A18569523314A4F834 /* Project object */;
+}

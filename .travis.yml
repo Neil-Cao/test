@@ -5,4 +5,4 @@ compiler:
   - gcc
 
 script:
-  g++ main.cpp -pthread -lcurl -lssl -lz -lsqlite3 -o test.out && ./test.out
+  ./Gyp/gyp && g++ main.cpp -pthread -lcurl -lssl -lz -lsqlite3 -o test.out && ./test.out
