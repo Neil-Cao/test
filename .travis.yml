@@ -5,4 +5,4 @@ compiler:
   - gcc
 
 script:
-  ./Gyp/gyp --depth=. test.gyp --generator-output=./build && cd build && make && ./test
+  ./Gyp/gyp --depth=. test.gyp --generator-output=./build && cd build && make && ./out/Default/test
