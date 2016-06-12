@@ -2,7 +2,7 @@
     'targets':  
     [  
         {  
-            'target_name': 'foo',  
+            'target_name': 'test',  
             'type'       : 'executable',  
             'sources'    :    
             [  
